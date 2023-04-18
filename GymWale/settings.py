@@ -24,9 +24,9 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'django-insecure--!^7c0*6vq83%2r9hywjo_cle9p0xwqcn@&^%!0^zuggrs_wyv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -134,13 +134,3 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-# HTTPS SETTINGS
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
-SECURE_SSL_REDIRECT = True
-
-# HSTS SETTINGS
-SECURE_HSTS_SECONDS = 3153600
-SECURE_HSTS_PRELOAD = True
-SECURE_HSTS_INCLUDE_SUBDOMAINS = True
