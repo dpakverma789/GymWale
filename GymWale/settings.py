@@ -21,7 +21,8 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('GYMWALE')
+# SECRET_KEY = os.environ.get('GYMWALE')
+SECRET_KEY = 'django-insecure--!^7c0*6vq83%2r9hywjo_cle9p0xwqcn@&^%!0^zuggrs_wyv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -76,16 +77,16 @@ WSGI_APPLICATION = 'GymWale.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        # 'PASSWORD': 'H9k4U5KshuiXV8FsqyBX',
-        # 'HOST': 'containers-us-west-94.railway.app',
-        'PORT': 6396
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'railway',
+#         'USER': 'postgres',
+#         # 'PASSWORD': 'H9k4U5KshuiXV8FsqyBX',
+#         # 'HOST': 'containers-us-west-94.railway.app',
+#         'PORT': 6396
+#     }
+# }
 
 
 # Password validation
