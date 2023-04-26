@@ -741,8 +741,9 @@ ol {
 }
 
 .bs-text .primary-btn {
-	background: transparent;
+	//background: transparent;
 	border: 2px solid #f36100;
+	border-radius: 50px;
 }
 
 .bs-text .play-btn {
