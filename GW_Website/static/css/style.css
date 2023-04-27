@@ -3279,7 +3279,7 @@ ol {
 
 .text_1::after, .text_2::after {
   content: "|";
-  position: absolute;
+  //position: absolute;
   right: 0;
   animation: caret infinite;
   animation-duration: 0.5s;
