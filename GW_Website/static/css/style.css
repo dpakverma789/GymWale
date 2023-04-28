@@ -3261,10 +3261,12 @@ ol {
 
 .text_1 {
   animation: text1;
+  max-width: max-content;
 }
 
 .text_2 {
   animation: text2;
+  max-width: max-content;
 }
 
 .text_1, .text_2 {
@@ -3273,7 +3275,7 @@ ol {
   display: inline-block;
   position: relative;
   animation-duration: 10s;
-  animation-timing-function: steps(10, end);
+  //animation-timing-function: steps(10, end);
   animation-iteration-count: infinite;
 }
 
@@ -3283,7 +3285,7 @@ ol {
   right: 0;
   animation: caret infinite;
   animation-duration: 0.5s;
-  animation-timing-function: steps(1, end);
+  //animation-timing-function: steps(1, end);
 }
 
 @keyframes text2 {
